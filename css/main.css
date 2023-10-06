@@ -1,0 +1,146 @@
+h1,
+h2,
+h3 {
+  color: #F0F4EF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 0px auto 0px auto;
+}
+
+.subjectContainer {
+<<<<<<< HEAD
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+=======
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+>>>>>>> parent of 3dc3af2 (bais)
+}
+
+
+
+.button {
+  background-color: #BFCC94;
+  width: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  border: 3px solid gray;
+}
+
+.topnav {
+  background-color: #F0F4EF;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  width: fit-content;
+  border-radius: 25px;
+}
+
+.topnav a {
+  color: #0D1821;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 25px;
+}
+
+.topnav a.active {
+  background-color: #BFCC94;
+  color: white;
+}
+
+.kontakt {
+  color: #F0F4EF;
+}
+
+p {
+  /*Denne p css stylingen er for å endre farge på avsnitta*/
+  color: #F0F4EF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  color: #F0F4EF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #a1c0e8;
+  padding: 30px;
+}
+
+a {
+  color: #F0F4EF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.alt {
+  text-align: center;
+}
+
+
+
+<<<<<<< HEAD
+button {
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #BFCC94;
+  width: 200px;
+  height: 70px;
+  border: 3px solid gray;
+  border-radius: 25px;
+  color: #F0F4EF;
+  cursor: pointer;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+=======
+.button {
+  margin:auto;
+>>>>>>> parent of 3dc3af2 (bais)
+}
+
+#dominoes {
+  width: 500px;
+  height: auto;
+}
+<<<<<<< HEAD
+
+#subjectcontainer2 {
+  justify-content: center;
+  margin: 100px;
+
+}
+
+.subjectcontainer3 {
+  margin: 80px;
+
+}
+
+video {
+  border: #BFCC94 20px solid;
+  border-radius: 50px;
+}
+=======
+>>>>>>> parent of 3dc3af2 (bais)
