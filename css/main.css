@@ -13,14 +13,9 @@ img {
 }
 
 .subjectContainer {
-<<<<<<< HEAD
   display: grid;
   grid-template-columns: auto auto auto;
   margin: auto;
-=======
-    display: grid; 
-    grid-template-columns: auto auto auto; 
->>>>>>> parent of 3dc3af2 (bais)
 }
 
 
@@ -101,7 +96,6 @@ a {
 
 
 
-<<<<<<< HEAD
 button {
   margin: auto;
   margin-bottom: 30px;
@@ -115,17 +109,12 @@ button {
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-=======
-.button {
-  margin:auto;
->>>>>>> parent of 3dc3af2 (bais)
 }
 
 #dominoes {
   width: 500px;
   height: auto;
 }
-<<<<<<< HEAD
 
 #subjectcontainer2 {
   justify-content: center;
@@ -142,5 +131,3 @@ video {
   border: #BFCC94 20px solid;
   border-radius: 50px;
 }
-=======
->>>>>>> parent of 3dc3af2 (bais)
