@@ -26,7 +26,7 @@ img { /* Denne stylingen er for å endre på egenskapene til bileta - This styli
   padding: 20px;
   border-radius: 15px;
   text-align: center;
-  border: 3px solid gray;
+  border: 3px solid #808080;
 }
 
 .topnav { /* Denne koden er for å endre på klassen topnav - This code is to change the class topnav */
@@ -101,7 +101,7 @@ button { /* Denne koden er for knappane, den brukte eg evigheitar på - This cod
 
 }
 
-#dominoes { /* Denne koden er for å bestemme korleis elementa som har iden "dominoes" skal sjå ut - This code is to choose how to the elements with the id "dominoes" look*/
+#prosjektbilete { /* Denne koden er for å bestemme korleis elementa som har iden "prosjektbilete" skal sjå ut - This code is to choose how to the elements with the id "prosjektbilete" look*/
   width: 500px;
   height: auto;
 }
