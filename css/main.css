@@ -2,7 +2,7 @@ h1,
 h2,
 h3 { /*Denne stylingen for h1,h2 og h3 er for å sette farge på, endre fonten og sørge for at teksten er i midten - This h1,h2 og h3 styling is to set color, change fonts and make the text centered on the page*/
   color: #F0F4EF;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Jost, serif;
   justify-content: center;
 }
 
@@ -29,17 +29,17 @@ img { /* Denne stylingen er for å endre på egenskapene til bileta - This styli
   border: 3px solid #808080;
 }
 
-.topnav { /* Denne koden er for å endre på klassen topnav - This code is to change the class topnav */
+.topnav {
   background-color: #F0F4EF;
   overflow: hidden;
   text-align: center;
   margin: auto;
-  padding: 15px;
+  padding: 35px;
   width: fit-content;
   border-radius: 25px;
 }
 
-.topnav a { /* Denne koden er for å endre på klassen a innforbi topnav - This code is to change the class a within topnav*/
+.topnav a {
   color: #0D1821;
   text-align: center;
   padding: 14px 16px;
@@ -48,8 +48,13 @@ img { /* Denne stylingen er for å endre på egenskapene til bileta - This styli
   border-radius: 25px;
 }
 
-.topnav a.active { /* Denne koden er for å endre på klassen active - This code is to change the class active */
+.topnav a.active {
   background-color: #BFCC94;
+  color: white;
+}
+
+.topnav a:hover { /* Add this code to apply hover effect */
+  background-color: #8d9671;
   color: white;
 }
 
@@ -60,12 +65,12 @@ img { /* Denne stylingen er for å endre på egenskapene til bileta - This styli
 p {
   /*Denne p css stylingen er for å endre farge på avsnitta - This css styling for the p code is to set colors and change font on the paragraphs*/
   color: #F0F4EF;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Jost, serif;
 }
 
 li { /*Denne LI stylingen er for å sette farge og endre font på lister - This LI styling is to set color and change font to lists*/
   color: #F0F4EF;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Jost, serif;
 }
 
 body { /* Denne koden forteller body elementet ka styling den skal ha - This code tells the body element what type of styling it should have*/
@@ -77,13 +82,14 @@ body { /* Denne koden forteller body elementet ka styling den skal ha - This cod
 
 footer { /* Denne koden forteller footer elementet korleis den skal sjå ut - This code tells the footer element how to look*/
   margin-top: auto;
-  background-color: #a1c0e8;
+  background-color: #00000035;
   padding: 30px;
+  font-family: Jost, serif;
 }
 
 a { /* Denne koden er for linkar og bestemmer korleis dei skal sjå ut - This code is for links and tells them how to look*/
   color: #F0F4EF;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Jost, serif;
 }
 
 button { /* Denne koden er for knappane, den brukte eg evigheitar på - This code is for the buttons, I used ages to make it so please point out problems if you see any */
@@ -97,7 +103,7 @@ button { /* Denne koden er for knappane, den brukte eg evigheitar på - This cod
   color: #F0F4EF;
   cursor: pointer;
   font-size: large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Jost, serif;
 
 }
 
@@ -121,4 +127,38 @@ video { /* Denne koden er for å bestemme korleis videoen skal sjå ut - This co
   border: #BFCC94 15px solid;
   border-radius: 50px;
   width: 400px;
+}
+
+body {
+  background-image: url(../images/background\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

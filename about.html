@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
-        body { /* Denne koden er for å sørge for at bakgrunnen på sida mi er blå - This code is to make the background of my website blue */
+        body {
             background-color: #B4CDED;
         }
     </style>
@@ -9,28 +9,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css"><!--Denne to koden er for å hente css stylingen - This code is to get the css styling from the file path "css/main-.css" -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Denne koden er for å hente ikona som eg har plassert rundt på sida mi - This code is to get the icons that I have placed on my website.-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
     <title>Min portefølje</title>
 </head> 
 <body>
   <div>
-    <div class="topnav"> <!-- Denne div koden med topnav klassen er for å sørge for at alt eg skal ha i navbaren min holder seg i lag - This div with the class topnav stays together -->
-      <a href="index.html"><i class="fa-solid fa-house"></i> Heim</a> <!-- Denne koden gjer at når eg trykke på heim i topnaven så komme eg til sida index.html, det er og ein i kode her som henter ikonet til heim - This code specifies that if I click heim in the topnav that it redirects me to index.html, theres also an i code here which gets the icon for heim-->
-      <a href="https://github.com/catus20" target="_blank"> <i class="fa-brands fa-github"></i> Github</a><!-- Denne koden gjer at når eg trykke på Github i topnaven så komme eg til sida https://github.com/catus20, det er og ein i kode her som henter ikonet til github - This code specifies that if I click github in the topnav that it redirects me to https://github.com/catus20, theres also an i code here which gets the icon for github-->
-      <a href="contact.html"><i class="fa-solid fa-phone"></i> Kontakt</a> <!-- Denne koden gjer at når eg trykke på kontakt i topnaven så komme eg til sida contact.html, det er og ein i kode her som henter ikonet til kontakt - This code specifies that if I click kontakt in the topnav that it redirects me to contact.html, theres also an i code here which gets the icon for kontakt-->
-      <a class="active" href="about.html"> <i class="fa-solid fa-user"></i> Om meg</a> <!--Denne koden gjer at når eg trykke på om meg i topnaven så kjem eg til about.html, den henter og ikonet til om meg - This code specifies that if I click om meg it will redirect to about.html, the i code here gets the icon for om meg-->
+    <div class="topnav">
+      <a href="index.html"><i class="fa-solid fa-house"></i> Heim</a>
+      <a href="https://github.com/catus20" target="_blank"> <i class="fa-brands fa-github"></i> Github</a>
+      <a href="contact.html"><i class="fa-solid fa-phone"></i> Kontakt</a>
+      <a class="active" href="about.html"> <i class="fa-solid fa-user"></i> Om meg</a>
+      <a href="tekforstalese.html"> <i class="fa-solid fa-book"></i> Tek. for.</a>
+      <a href="konsprog.html"> <i class="fa-solid fa-book"></i> Kons. og prog.</a>
+      <a href="prodhist.html"> <i class="fa-solid fa-book"></i> Prod. hist.</a>
+    </div>
     </div>
       </div>
-      <h1> Om meg </h1> <!-- Denne koden er for å skrive ut overskrifta "om meg" - This code is to print out the heading "om meg" -->
-      <h2> Hei, eg heiter Emre. Eg er ein 15 år gammal gut som bur på Stord. </h2> <!-- Denne koden er for å skrive ut ein liten tekst om meg - This code is to print out a little text about me -->
-      <img src="images/meg.png" alt="Bilete av meg som ringbærar i 2012"> <!--Denne koden er for å ha eit bilete av meg på sida, den har og ein alt for dei som brukar skjermlesar - This code is to have a picture of me on the site, it also has an alt for those who uses a screen reader-->
-      <p> Meg som ringbærar i 2012.</p> <!-- Denne koden er for å skrive ut ein liten tekst om bildet - This code is to print out a little text about the picture -->
-      <p> Litt meir om meg </p> <!-- Denne koden er for å skrive ut ein overskrift om at eg skal skrive litt meir om meg - This code is to print out a heading about that I will write a little more about me -->
-        <li> Født i 2007</li> <!-- Denne koden er for å skrive ut at eg er født i 2007 - This code is to print out that I was born in 2007 -->
-        <li> Tyrkisk opphav</li><!-- Denne koden er for å skrive ut at eg har tyrkisk opphav - This code is to print out that I have Turkish origin -->
-        <li> Glad i teknologi</li> <!-- Denne koden er for å skrive ut at eg er glad i teknologi - This code is to print out that I like technology -->
-      </p> <!-- Denne koden er for å avslutte p taggen - This code is to end the p tag -->
+      <h1> Om meg </h1>
+      <h2> Hei, eg heiter Emre. Eg er ein 15 år gammal gut som bur på Stord. </h2>
+      <img src="images/meg.png" alt="Bilete av meg som ringbærar i 2012">
+      <p> Meg som ringbærar i 2012.</p> 
+      <p> Litt meir om meg </p>
+        <li> Tyrkisk opphav</li>
+        <li> Glad i teknologi</li>
       
       
       
@@ -41,7 +44,7 @@
       
       
       
-      <footer> <!-- Denne koden er for å starte ein footer - This code is to start a footer-->
-        <p>Author: Emre Yirmi</p> <!-- Denne koden er for å skrive tekst inni footeren som skal heilt på bonnen av sida - This code is to write text inside the footer which will appear at the bottom of the screen-->
-        <p><a href="mailto:emre07.yirmi@gmail.com"><i class="fa-solid fa-envelope"></i> emre07.yirmi@gmail.com</a></p> <!-- Denne koden er for å gjere sånn at når folk trykker på e-posten heilt nere at den vart opna i eit e-post program - This code is to make the email at the bottom of a screen into a link, which will open the users mail app with my email filled out-->
-      </footer> <!-- Denne koden er for å avslutte ein footer - This code is to end a footer-->
+      <footer>
+        <p>Author: Emre Yirmi</p>
+        <p><a href="mailto:emre07.yirmi@gmail.com"><i class="fa-solid fa-envelope"></i> emre07.yirmi@gmail.com</a></p>
+      </footer>
