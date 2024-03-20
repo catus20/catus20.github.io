@@ -153,4 +153,7 @@ body {
     display: flex;
     flex-direction: column;
   }
+  main {
+    width:100vw;
+  }
 }
