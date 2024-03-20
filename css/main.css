@@ -147,3 +147,10 @@ body {
   padding-top: 20px; /* Adjust this value to move the elements further down */
   margin-bottom: 20px;
 }
+/* This will apply when the screen width is 600px or less */
+@media screen and (max-width: 600px) {
+  .subjectContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
