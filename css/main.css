@@ -30,7 +30,7 @@ img { /* Denne stylingen er for å endre på egenskapene til bileta - This styli
 }
 
 .topnav {
-  background-color: #F0F4EF;
+  background-color: rgba(240, 244, 239, 0.92);
   overflow: hidden;
   text-align: center;
   margin: auto;
@@ -38,6 +38,7 @@ img { /* Denne stylingen er for å endre på egenskapene til bileta - This styli
   width: fit-content;
   border-radius: 25px;
   margin-top: 15px;
+  
 }
 
 .topnav a {
@@ -135,4 +136,14 @@ body {
   background-image: url(../images/background\ image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    height: 100px; /* Adjust this value to the height you want on smaller screens */
+  }
+}
+.topnav * { /* Selects all elements inside .topnav */
+  padding-top: 20px; /* Adjust this value to move the elements further down */
+  margin-bottom: 20px;
 }
