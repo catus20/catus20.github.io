@@ -140,7 +140,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .topnav {
-    height: 100px; /* Adjust this value to the height you want on smaller screens */
+    height: 120px; /* Adjust this value to the height you want on smaller screens */
   }
 }
 .topnav * { /* Selects all elements inside .topnav */
@@ -155,5 +155,8 @@ body {
   }
   main {
     width:100vw;
+  }
+  #prosjektbilete {
+    width: 100%;
   }
 }
