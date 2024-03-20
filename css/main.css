@@ -140,18 +140,22 @@ body {
 
 @media screen and (max-width: 600px) {
   .topnav {
-    height: 120px; /* Adjust this value to the height you want on smaller screens */
+    height: 140px;
+    padding: 5px;
+    width: 100vw;
+  }
+  .topnav * { 
+    padding-top: 20px; 
+    margin-bottom: 20px;
+    ;
+  
   }
 }
-.topnav * { /* Selects all elements inside .topnav */
-  padding-top: 20px; /* Adjust this value to move the elements further down */
-  margin-bottom: 20px;
-}
-/* This will apply when the screen width is 600px or less */
+
 @media screen and (max-width: 600px) {
   .subjectContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
   }
   main {
     width:100vw;
