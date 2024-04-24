@@ -16,6 +16,7 @@ img { /* Denne stylingen er for å endre på egenskapene til bileta - This styli
   display: grid;
   grid-template-columns: auto auto auto;
   margin: auto;
+  margin: 10%;
 }
 
 
@@ -162,4 +163,10 @@ body {
   #prosjektbilete {
     width: 100%;
   }
+}
+
+#bokomslag img {
+  justify-content: center;
+  width: fit-content;
+  height: 500px;
 }
