@@ -1,27 +1,24 @@
 h1,
 h2,
-h3 { /*Denne stylingen for h1,h2 og h3 er for å sette farge på, endre fonten og sørge for at teksten er i midten - This h1,h2 og h3 styling is to set color, change fonts and make the text centered on the page*/
+h3 {
   color: #F0F4EF;
   font-family: Jost, serif;
   justify-content: center;
 }
 
-img { /* Denne stylingen er for å endre på egenskapene til bileta - This styling is to change the properties of the pictures*/
+img {
   width: 250px;
   height: 250px;
-  margin: 0px auto 0px auto;
+  margin: 0 auto;
 }
 
-.subjectContainer { /* Denne stylinga er for å endre på alt som har klassen .subjectcontainer - This styling is to change everything that is in the class subjectcontainer */
+.subjectContainer {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin: auto;
   margin: 10%;
 }
 
-
-
-.button {  /* Denne koden er for å endre på klassen button - This code is to change the class button */
+.button {
   background-color: #BFCC94;
   width: 200px;
   padding: 20px;
@@ -38,7 +35,6 @@ img { /* Denne stylingen er for å endre på egenskapene til bileta - This styli
   margin: auto;
   border-radius: 25px;
   margin-top: 15px;
-  
 }
 
 .topnav a {
@@ -55,27 +51,26 @@ img { /* Denne stylingen er for å endre på egenskapene til bileta - This styli
   color: white;
 }
 
-.topnav a:hover { /* Add this code to apply hover effect */
+.topnav a:hover {
   background-color: #8d9671;
   color: white;
 }
 
-.kontakt { /* Denne koden er for å endre på klassen kontakt - This code is to change the class kontakt */
+.kontakt {
   color: #F0F4EF;
 }
 
 p {
-  /*Denne p css stylingen er for å endre farge på avsnitta - This css styling for the p code is to set colors and change font on the paragraphs*/
   color: #F0F4EF;
   font-family: Jost, serif;
 }
 
-li { /*Denne LI stylingen er for å sette farge og endre font på lister - This LI styling is to set color and change font to lists*/
+li {
   color: #F0F4EF;
   font-family: Jost, serif;
 }
 
-body { /* Denne koden forteller body elementet ka styling den skal ha - This code tells the body element what type of styling it should have*/
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -83,19 +78,19 @@ body { /* Denne koden forteller body elementet ka styling den skal ha - This cod
   margin: 0;
 }
 
-footer { /* Denne koden forteller footer elementet korleis den skal sjå ut - This code tells the footer element how to look*/
+footer {
   margin-top: auto;
   background-color: #00000035;
   padding: 30px;
   font-family: Jost, serif;
 }
 
-a { /* Denne koden er for linkar og bestemmer korleis dei skal sjå ut - This code is for links and tells them how to look*/
+a {
   color: #F0F4EF;
   font-family: Jost, serif;
 }
 
-button { /* Denne koden er for knappane, den brukte eg evigheitar på - This code is for the buttons, I used ages to make it so please point out problems if you see any */
+button {
   margin: auto;
   margin-bottom: 30px;
   background-color: #BFCC94;
@@ -107,26 +102,23 @@ button { /* Denne koden er for knappane, den brukte eg evigheitar på - This cod
   cursor: pointer;
   font-size: large;
   font-family: Jost, serif;
-
 }
 
-#prosjektbilete { /* Denne koden er for å bestemme korleis elementa som har iden "prosjektbilete" skal sjå ut - This code is to choose how to the elements with the id "prosjektbilete" look*/
+#prosjektbilete {
   width: 500px;
   height: auto;
 }
 
-#subjectcontainer2 { /* Passer på at elementa i subjectcontainer2 er i midten - Makes sure that the elements in subjectcontainer2 is in the middle*/
+#subjectcontainer2 {
   justify-content: center;
   margin: 100px;
-
 }
 
-.subjectcontainer3 { /* Denne koden er for å bestemme korleis elementa som har klassen "subjectcontainer3" skal ligge ifrå andre element - This code decides how far it is from elements with the class "subjectcontainer3" */
+.subjectcontainer3 {
   margin: 50px;
-
 }
 
-video { /* Denne koden er for å bestemme korleis videoen skal sjå ut - This code is to choose how the video should look*/
+video {
   border: #BFCC94 15px solid;
   border-radius: 50px;
   width: 400px;
@@ -144,21 +136,35 @@ body {
     padding: 5px;
     width: 100vw;
   }
-  .topnav * { 
-    padding-top: 20px; 
+  .topnav * {
+    padding-top: 20px;
     margin-bottom: 20px;
-    ;
-  
+  }
+  #bokomslag img {
+    justify-content: center;
+    width: fit-content;
+    height: 100px;
+  }
+
+  video {
+    width: 300px;
+  }
+
+  #videoar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
 }
 
 @media screen and (max-width: 600px) {
   .subjectContainer {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
   }
   main {
-    width:100vw;
+    width: 100vw;
   }
   #prosjektbilete {
     width: 100%;
