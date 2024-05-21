@@ -16,6 +16,8 @@ img {
   display: grid;
   grid-template-columns: auto auto auto;
   margin: 10%;
+  padding-right: 10%;
+  
 }
 
 .button {
@@ -174,5 +176,17 @@ body {
 #bokomslag img {
   justify-content: center;
   width: fit-content;
-  height: 500px;
+  height: 1500px;
+}
+
+#megsjolv {
+  height: auto;
+  width: auto;
+}
+
+#klokke {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 4%;
 }
