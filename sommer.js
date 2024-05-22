@@ -23,4 +23,4 @@ function updateCountdown() {
 updateCountdown();
 
 // Refresh the countdown every second
-setInterval(updateCountdown, 1000);
+setInterval(updateCountdown, 1);
