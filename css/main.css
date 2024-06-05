@@ -14,10 +14,23 @@ img {
 
 .subjectContainer {
   display: grid;
-  grid-template-columns: auto auto auto;
-  margin: 10%;
-  padding-right: 10%;
+  grid-template-columns: auto auto auto auto;
+  padding-bottom: 10%;
+  padding-top: 10%;
   
+}
+
+.subjectContainerVideo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  
+}
+
+.subjectContainer img {
+  width: auto;
+  height: 400px;
 }
 
 .button {
@@ -113,8 +126,14 @@ button {
 
 #subjectcontainer2 {
   justify-content: center;
-  margin: 100px;
 }
+
+.subjectcontainer2{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: auto;
+}
+
 
 .subjectcontainer3 {
   margin: 50px;
@@ -124,6 +143,7 @@ video {
   border: #BFCC94 15px solid;
   border-radius: 50px;
   width: 400px;
+  justify-content: center;
 }
 
 body {
@@ -189,4 +209,21 @@ body {
   top: 0;
   left: 0;
   margin-left: 4%;
+  font-family: 'digital-7';
+  font-size: 50px;
+}
+
+@font-face {
+  font-family: 'digital-7' ;
+  src: url('../fonts/digital-7.ttf')
+}
+
+#konsprogboksar {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#konsprogboksar img {
+  width: auto;
+  height: 300px;
 }
